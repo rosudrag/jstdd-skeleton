@@ -16,3 +16,8 @@ Utils:
 ## To Write new test:
 * add your test files in /test
 * follow helloWorldTest.js example
+
+
+## To Instal
+* ```npm install```
+* ```npm install -g karma-cli```
