@@ -25,6 +25,7 @@ module.exports = function(config) {
 		// list of files / patterns to load in the browser
 		files: [
 			'test/index.js',
+			{pattern: '_reports/**/*.html', watched:false}
 		],
 
 
@@ -50,7 +51,7 @@ module.exports = function(config) {
 
 		// test results reporter to use
 		// possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-		reporters: ['spec'],
+		reporters: ['spec', 'htmlDetailed'],
 
 
 		// web server port
@@ -96,7 +97,13 @@ module.exports = function(config) {
 			require("karma-mocha"),
 			require("karma-spec-reporter"),
 			require("karma-chrome-launcher"),
-			require("karma-webpack")
-		]
+			require("karma-webpack"),
+			require("karma-html-detailed-reporter")
+		],
+
+		htmlDetailed: {
+			dir: 'htmlReport/',
+		  splitResults: true
+ 		}
 	});
 };
