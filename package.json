@@ -16,9 +16,6 @@
     "should": "^11.0.0",
     "webpack": "^1.13.1"
   },
-  "devDependencies": {
-    "karma-html-detailed-reporter": "^1.1.8"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
