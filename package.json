@@ -1,0 +1,32 @@
+{
+  "name": "JSTDD-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.1.1",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.0.2",
+    "requirejs": "^2.2.0",
+    "should": "^11.0.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosudrag/jskata-skeleton.git"
+  },
+  "author": "DRR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosudrag/jskata-skeleton/issues"
+  },
+  "homepage": "https://github.com/rosudrag/jskata-skeleton"
+}
