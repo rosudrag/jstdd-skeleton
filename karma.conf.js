@@ -79,7 +79,7 @@ module.exports = function(config) {
 		// - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
 		// - PhantomJS
 		// - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-		browsers: ['Chrome'],
+		browsers: ['PhantomJS'],
 
 
 		// If browser does not capture in given timeout [ms], kill it
@@ -96,7 +96,7 @@ module.exports = function(config) {
 		plugins: [
 			require("karma-mocha"),
 			require("karma-spec-reporter"),
-			require("karma-chrome-launcher"),
+			require("karma-phantomjs-launcher"),
 			require("karma-webpack"),
 			require("karma-html-detailed-reporter")
 		],
